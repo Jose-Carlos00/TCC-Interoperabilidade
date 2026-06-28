@@ -1,0 +1,46 @@
+# ========================
+# Segurança & Segredos
+# ========================
+.env
+
+# ========================
+# Dependências do Node.js
+# ========================
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ========================
+# Artefatos do Hardhat
+# ========================
+cache/
+artifacts/
+typechain-types/
+typechain/
+
+# ========================
+# Relatórios de Testes e Logs
+# ========================
+coverage/
+coverage.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+hardhat-network-logs/
+
+# ========================
+# Arquivos de Sistema Operacional
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Configurações de IDE (VS Code, etc)
+# ========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln

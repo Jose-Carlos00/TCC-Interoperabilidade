@@ -10,13 +10,17 @@ import * as Contracts from "./index.js";
 
 declare module "@nomicfoundation/hardhat-ethers/types" {
   interface HardhatEthersHelpers extends HardhatEthersHelpersBase {
-  getContractFactory(name: 'Counter', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.Counter__factory>
+  getContractFactory(name: 'HTLC', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.HTLC__factory>
+getContractFactory(name: 'TestToken', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.TestToken__factory>
 
-  getContractAt(name: 'Counter', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.Counter>
+  getContractAt(name: 'HTLC', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.HTLC>
+getContractAt(name: 'TestToken', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.TestToken>
 
-  deployContract(name: 'Counter', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.Counter>
+  deployContract(name: 'HTLC', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.HTLC>
+deployContract(name: 'TestToken', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.TestToken>
 
-  deployContract(name: 'Counter', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.Counter>
+  deployContract(name: 'HTLC', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.HTLC>
+deployContract(name: 'TestToken', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.TestToken>
 
     // default types
     getContractFactory(
