@@ -1,0 +1,12 @@
+{
+    "TestToken": {
+        "address": "0x0EcF3a97FD5D438dD2DaC0795558b50f2B2c49cF",
+        "network": "amoy",
+        "deployedAt": "2026-07-04T19:25:02.563Z"
+    },
+    "HTLC": {
+        "address": "0x572195eFDd380fE5d1b7D2aa3AB1009A7864D063",
+        "network": "amoy",
+        "deployedAt": "2026-07-04T19:27:47.687Z"
+    }
+}

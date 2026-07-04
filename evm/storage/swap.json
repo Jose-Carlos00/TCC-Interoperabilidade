@@ -1,0 +1,11 @@
+{
+    "secret": "0xecf8cc355b3689f773275d23835cc903202d904e276cb7334235dc8def3ba847",
+    "hashLock": "0x51f703814cc53fb94b66d1ddafab38709363c1969a1c23b143fef345713aa5ed",
+    "amount": "100000000000000000000",
+    "token": "0x0EcF3a97FD5D438dD2DaC0795558b50f2B2c49cF",
+    "recipient": "0x9519D6907a1d682555Ccad7d4D4405fF27B874e4",
+    "lockTime": 3600,
+    "network": "amoy",
+    "htlc": "0x572195eFDd380fE5d1b7D2aa3AB1009A7864D063",
+    "status": "CLAIMED"
+}
